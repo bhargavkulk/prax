@@ -1,0 +1,26 @@
+@h1 Prax Sample @em{Document}
+This heading spans multiple lines
+to demonstrate block behavior.
+
+@p Intro paragraph begins here
+and keeps flowing onto this line.
+
+Plain paragraph without directive stays together
+until a blank line appears with inline @em{emphasis and nested @em{more}} and @st{strong text} plus escaped \@em{literal}.
+
+Shortform /emphasis/ and *strength* stay whole-word.
+
+@pre
+This is what a pre block looks like:
+
+\@pre
+Code here!
+\@end
+@end
+
+@pre
+    # an indented pre block!
+    def hello(name: str):
+        print(f'Hello, {name}!')
+
+    hello('Prax')
